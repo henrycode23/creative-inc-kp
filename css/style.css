@@ -23,6 +23,11 @@ img {
 
 /* typography 
 ======================= */
+h1 {
+  font-weight: 300;
+  font-size: 2.5rem;
+}
+
 .title {
   font-size: 2.5rem;
   margin-bottom: 1.5em;
@@ -133,6 +138,19 @@ nav a:focus {
 @media (min-width: 60rem) {
   .home-hero {
     height: 100vh;
-    padding-top: 30vh;
+    padding-top: 35vh;
   }
 }
+
+
+/* hero-home
+======================= */
+.home-about-textbox {
+  background-color: #232323;
+  padding: 3em;
+  width: 100vw;
+  margin-left: -2.5%;
+  outline: 2px solid #00ff6c;
+  outline-offset: -2.5em;
+}
+
