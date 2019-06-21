@@ -17,6 +17,7 @@ img {
 
 .container {
   width: 95%;
+  max-width: 70em;
   margin: 0 auto;
 }
 
@@ -27,6 +28,15 @@ h1 {
   font-weight: 300;
   font-size: 1.6rem;
   margin-top: 0;
+}
+
+p {
+  margin-top: 0;
+  line-height: 1.6;
+}
+
+p:last-of-type {
+  margin-bottom: 0;
 }
 
 .title {
@@ -45,6 +55,11 @@ h1 {
 @media (min-width: 60rem) {
   .title {
     font-size: 3.7rem;
+  }
+
+  p {
+    font-size: 1.2rem;
+    line-height: 1.6;
   }
 }
 
@@ -185,8 +200,22 @@ nav a:focus {
     font-size: 2.5rem;
   }
 
+  .home-about {
+    background-image: url(../img/who-we-are.jpg);
+    background-repeat: no-repeat;
+    padding-bottom: 7em;
+  }
+
+  .home-about-textbox {
+    width: 50%;
+    padding: 7em 6em;
+    margin-left: -2.5%;
+    top: -4.5em;
+    text-align: left;
+    box-shadow: 0 0 4em 0 rgba(0, 0, 0, .3)
+  }
+
   .home-about-textbox h1 {
-    top: .3em;
-    padding: 0 .6em;
+    top: .5.2em;
   }
 }
